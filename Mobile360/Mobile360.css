@@ -1,0 +1,76 @@
+/* CSS declarations go here */
+/* reset */
+.btn-primary{
+	background: red;
+	color: white;
+	border: 1px solid red;
+}
+
+.eq-m-login{
+	background: url('../images/bg-login.png') #333;
+	height: 100vh;
+	padding-top: 50px;
+}
+
+.eq-m-logo{
+	background: url('../images/equinix-mobile-360.png') no-repeat;
+	width: 169px;
+	height: 54px;
+	margin: 0% auto;
+}
+
+.eq-m-login-form{
+	height: 30vh;
+	text-align: center;
+	margin: 20vh 0 20vh 0;
+}
+
+.eq-m-login-form input{
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+.eq-m-footer{
+	text-align: center;
+	color: white;
+}
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 568px) {
+
+	.eq-m-login{
+		padding-top: 20px;
+	}
+
+	.eq-m-login-form{
+		height: 30vh;
+		text-align: center;
+		margin: 10vh 0 20vh 0;
+	}
+}
+
+/* authentication */
+.eq-m-input-verification{
+	background: #F4D7D7;
+	color: #DE8787;
+}
+
+/* features list */
+.eq-m-feature-my-ibx,
+.eq-m-feature-orders,
+.eq-m-feature-ports,
+.eq-m-feature-assets,
+.eq-m-feature-invoices,
+.eq-m-feature-notifications,
+.eq-m-feature-traffic-data,
+.eq-m-feature-buyers,
+.eq-m-feature-sellers,
+.eq-m-feature-service-providers,
+.eq-m-feature-eq-connect-traffic-data,
+.eq-m-feature-colocatin-opp,
+.eq-m-feature-interconnection-opp{
+	background: url('../images/ico-features.png') no-repeat;
+}
+/* /features list */

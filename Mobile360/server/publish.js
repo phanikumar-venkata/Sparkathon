@@ -1,0 +1,1 @@
+// All Meteor.publish methods goes here
