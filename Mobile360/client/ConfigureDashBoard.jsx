@@ -11,7 +11,7 @@ ConfigureDashBoard = React.createClass({
 				<div className="container eq-m-boards">
 					<h2>Create Your Board</h2>
 					<ul>
-						<li><a href="#"><span className="eq-m-feature-my-ibx"></span>My IBX(s)</a></li>
+						<li><a href="http://ixpdev11.ap.equinix.com:3000/ibxes"><span className="eq-m-feature-my-ibx"></span>My IBX(s)</a></li>
 						<li><a href="#"><span className="eq-m-feature-orders"></span>Orders</a></li>
 						<li><a href="#"><span className="eq-m-feature-ports"></span>Ports</a></li>
 						<li><a href="#"><span className="eq-m-feature-assets"></span>Assets</a></li>
