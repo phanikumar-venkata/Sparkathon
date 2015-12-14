@@ -1,4 +1,4 @@
-function checkLoggedIn (ctx, redirect) {  
+function checkLoggedIn (ctx, redirect) {
   if (!Meteor.userId()) {
     redirect('/user/login')
   }
@@ -53,5 +53,14 @@ privateRoutes.route("/configure", {
     ReactLayout.render(MainLayout, {
       content: <ConfigureDashBoard />
     });
+  }
+});
+
+publicRoutes.route("/ibxes", {
+  name: "ibxes",
+  action() {
+      ReactLayout.render(PublicLayout, {
+        content: <Ibxes />
+      });
   }
 });
