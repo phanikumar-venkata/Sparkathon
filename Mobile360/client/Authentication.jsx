@@ -12,5 +12,7 @@ Tracker.autorun(function () {
 	if (!Meteor.userId()) {
 		console.log('No authentication found..');
 		//FlowRouter.go('/user/login')
+	} else {
+		console.log('authentication found..' + Meteor.user().username) ;
 	}
 })
