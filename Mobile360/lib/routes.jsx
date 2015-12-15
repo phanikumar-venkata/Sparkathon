@@ -64,3 +64,13 @@ publicRoutes.route("/ibxes", {
       });
   }
 });
+
+publicRoutes.route("/assets", {
+  name: "assets",
+  action() {
+      ReactLayout.render(PublicLayout, {
+        content: <Assets />
+      });
+  }
+});
+
